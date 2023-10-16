@@ -4,7 +4,7 @@
   
 
 ## Description
-   The movitvation behind this project is to help eliminate the cost/need for a graphic designer, using this logo generator. For small business this could help save money, and time . It solves the needs of start up business who dont have the funding for a big large logo budget.
+   The movitvation behind this project is to help eliminate the cost/need for a graphic designer, using this logo generator. For small business's this could help save money, and time during the start up process. It solves the needs of early business who dont have the budget for a premier logo. This generator will give you a very firm starting point to build off of or use.
   
 ## Table of Contents
   - [Installation](#installation)
@@ -14,16 +14,16 @@
    
 ## Installation
 <a name="installation"></a>
-  You will need to open the main file and within the develop folder, open in the integrated terminal and enter "npm i" in order to run the application. Once completed you are good to go.
+  First off you will have to clone my public repo onto your local device and run the application within your terminal. You will need to open the index.js file within the develop folder, open in the integrated terminal and enter "npm i" in order to run the application. Once completed you are good to go and ready to use the application.
 
 
 ## Usage
 <a name="usage"></a>
-  Once the above installation steps are complete; you can now begin the application. Begin by typing node index.js and the application will present the user with a list of questions in order to help generate a professional logo taking in the user input. Once all questions are completed, the generator will display a success message and your personal logo will be automatically placed within the develop folder for viewing and use.
+  Once the above installation steps are complete; you can now begin the application. Begin by typing node index.js and the application will present the user with a list of questions in order to help generate a professional logo taking in the user input. Once all of the questions are completed, the generator will display a success message and your personal logo will be automatically placed within the develop folder for viewing and use.
 
 
 ## Credits
-  References were taken from 10-OOP in class activities, along with help from Google.com  and W3 Schools.
+  References were taken from Chapter "10-OOP" in class activities and all past chapters as well; along with Google.com and W3 Schools.
 
 
 ## License
