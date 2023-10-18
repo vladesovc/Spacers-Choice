@@ -2,7 +2,7 @@
     <svg version="1.1"
     width="300" height="200"
     xmlns="http://www.w3.org/2000/svg">
-    <polygon points="150,18 244,182 56,182" fill="Yellow" />
-    <text x="50%" y="50%" fill="Blue" text-anchor="middle" dy=".3em">fek</text>
+    <polygon points="150,18 244,182 56,182" fill="Black"/>
+    <text x="50%" y="50%" fill="Red" text-anchor="middle" dy=".3em">CJV</text>
     </svg>
   
