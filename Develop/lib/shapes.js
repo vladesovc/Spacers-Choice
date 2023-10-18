@@ -12,8 +12,6 @@ class Circle {
     }
 }
 
-module.exports = Circle;
-
 class Triangle {
     constructor() {
         this.color = "bisque";
@@ -27,8 +25,6 @@ class Triangle {
         return `<polygon points="150,18 244,182 56,182" fill="${this.color}" />`;
     }
 }
-
-module.exports = Triangle;
 
 class Square {
     constructor() {
@@ -44,4 +40,4 @@ class Square {
     }
 }
 
-module.exports = Square;
+module.exports = {Circle, Triangle, Square}

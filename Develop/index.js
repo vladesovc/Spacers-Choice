@@ -1,28 +1,11 @@
-const fs = require('fs');
 const inquirer = require('inquirer');
-const generateLogoSVG = require('./logoGenerator');
+const generateLogo = require('./lib/logoGenerator.js');
+const questions = require('./lib/prompt.js');
 
-const logoOptions = [
-  {
-    type: 'list',
-    name: 'shape',
-    message: 'Select a shape:',
-    choices: ['Circle', 'Square', 'Triangle'],
-  },
-  {
-    type: 'list',
-    name: 'color',
-    message: 'Select a color:',
-    choices: ['Red', 'Green', 'Blue'],
-  },
-  {
-    type: 'input',
-    name: 'text',
-    message: 'Enter 3 letter text for the logo:',
-  },
-  {
-    type: 'input',
-    name: 'filename',
-    message: 'Enter the filename for the SVG file (e.g., logo.svg):',
-  },
-];
+// Run the logo generation function
+function runLogoGeneration() {
+    const userInput = inquirer.prompt(questions);
+    generateLogo(userInput);
+}
+
+runLogoGeneration();
