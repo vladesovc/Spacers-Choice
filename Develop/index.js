@@ -4,8 +4,8 @@ const questions = require('./lib/prompt.js');
 
 // Run the logo generation function
 function runLogoGeneration() {
-    const userInput = inquirer.prompt(questions);
-    generateLogo(userInput);
+    // const userInput = inquirer.prompt(questions);
+    generateLogo();
 }
 
 runLogoGeneration();
