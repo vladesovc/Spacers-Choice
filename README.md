@@ -9,6 +9,7 @@
 ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Link](#link)
   - [License](#license)
    
    
@@ -20,6 +21,21 @@
 ## Usage
 <a name="usage"></a>
   Once the above installation steps are complete; you can now begin the application. Begin by typing node index.js and the application will present the user with a list of questions in order to help generate a professional logo taking in the user input. Once all of the questions are completed, the generator will display a success message and your personal logo will be automatically placed within the develop folder for viewing and use.
+
+## Link
+<a name="link"></a>
+
+Google Drive Link
+
+
+https://drive.google.com/file/d/1JbWGyhkUT4NNrfgqSy8nVMTM7cN7r2Zs/view
+
+
+Screencastify Link (incase the Google video doesn't render)
+
+
+https://watch.screencastify.com/v/nJ8K8AxqWbYGGI9QXGSC
+
 
 
 ## Credits
