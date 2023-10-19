@@ -8,7 +8,7 @@ class Shape {
 }
 
 
-class Circle extends Shape{
+class Circle extends Shape {
     constructor(color) {
         super(color);
     }
@@ -17,7 +17,7 @@ class Circle extends Shape{
     }
 }
 
-class Triangle extends Shape{
+class Triangle extends Shape {
     constructor(color) {
         super(color);
     }
@@ -26,7 +26,7 @@ class Triangle extends Shape{
     }
 }
 
-class Square extends Shape{
+class Square extends Shape {
     constructor(color) {
         super(color);
     }
@@ -35,4 +35,4 @@ class Square extends Shape{
     }
 }
 
-module.exports = {Circle, Triangle, Square}
+module.exports = { Circle, Triangle, Square }
