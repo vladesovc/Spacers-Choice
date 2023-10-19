@@ -4,8 +4,6 @@ const questions = require('./prompt');
 const { Circle, Triangle, Square } = require('./shapes')
 
 function generateSVG(text, textColor, shapeRender) {
-  // Replace with your SVG generation logic based on the provided input
-  // Example: Creating a simple SVG with the given text and shape
   const svgContent = `
     <svg version="1.1"
     width="300" height="200"
